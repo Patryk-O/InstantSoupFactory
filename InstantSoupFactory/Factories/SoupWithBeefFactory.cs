@@ -9,7 +9,7 @@ namespace InstantSoupFactory
     public class SoupWithBeefFactory : SoupFactory
     {
         public string Name { get; set; }
-        public string Meat = "Chicken";
+        public string Meat = "Beef";
         public IHotSoup createHotSoup()
         {
             Console.WriteLine("Hot Soup with Beef was created");

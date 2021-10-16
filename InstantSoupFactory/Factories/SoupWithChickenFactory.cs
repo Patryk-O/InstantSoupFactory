@@ -8,6 +8,8 @@ namespace InstantSoupFactory
 {
     public class SoupWithChickenFactory : SoupFactory
     {
+        public string Name { get; set; }
+        public string Meat = "Chicken";
         public IHotSoup createHotSoup()
         {
             Console.WriteLine("Hot Soup with Chicken was created");

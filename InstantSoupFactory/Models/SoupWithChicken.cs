@@ -8,6 +8,7 @@ namespace InstantSoupFactory
 {
     class SoupWithChicken : ISoup
     {
+        string name = "Chicken Soup";
         public string Pasta()
         {
             return "hmm pasta with chicken soup";

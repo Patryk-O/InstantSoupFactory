@@ -8,6 +8,7 @@ namespace InstantSoupFactory
 {
     class HotSoupWithChicken : IHotSoup
     {
+        string name = "HotChicken Soup";
         public string HotSauce()
         {
             return  "Hot sauce to chicken";
